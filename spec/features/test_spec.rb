@@ -6,4 +6,7 @@ describe 'Dashboard page', type: :feature do
     expect(true).to be(true)
   end
 
+  it 'should be true' do
+    expect(true).to be(false)
+  end
 end
